@@ -1,0 +1,16 @@
+# Local setup doc — not needed on GitHub
+SETUP.md
+
+# Local preview artifacts
+preview.html
+preview-*.jpeg
+preview-*.png
+.playwright-mcp/
+.claude/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

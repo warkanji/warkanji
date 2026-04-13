@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Waleed Arkanji — Head of Products at Resal">
+  <defs>
+    <!-- Brand gradient: deep-black → resal-blue (signature direction) -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="60%" stop-color="#0A0A2E"/>
+      <stop offset="100%" stop-color="#1802D9"/>
+    </linearGradient>
+
+    <!-- Accent gradient (mint teal, opacity variation only — brand-compliant) -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9A6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00D9A6" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Soft teal glow orb -->
+    <radialGradient id="orbTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D9A6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00D9A6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Soft blue glow orb -->
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1802D9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1802D9" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot pattern (Post 1 / Post 6 inspiration) -->
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.08"/>
+    </pattern>
+
+    <!-- Glass card clip: rounded rect -->
+    <clipPath id="glassClip">
+      <rect x="0" y="0" width="360" height="220" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- ============== BACKGROUND ============== -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#dots)"/>
+
+  <!-- Blurred glow orbs (static, no animation — GitHub camo friendly) -->
+  <circle cx="1120" cy="90" r="220" fill="url(#orbTeal)"/>
+  <circle cx="1000" cy="340" r="170" fill="url(#orbBlue)"/>
+  <circle cx="200" cy="360" r="180" fill="url(#orbTeal)" opacity="0.55"/>
+
+  <!-- ============== LEFT CONTENT ============== -->
+
+  <!-- Thin accent bar above role chip -->
+  <rect x="80" y="72" width="40" height="3" fill="url(#accent)"/>
+
+  <!-- Role chip -->
+  <g transform="translate(80, 88)">
+    <rect width="268" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.06" stroke="#00D9A6" stroke-opacity="0.5"/>
+    <circle cx="18" cy="15" r="4" fill="#00D9A6"/>
+    <text x="32" y="20" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" letter-spacing="2.4">HEAD OF PRODUCTS · RESAL</text>
+  </g>
+
+  <!-- Name (display weight) -->
+  <text x="80" y="182" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="-1.5">Waleed Arkanji</text>
+
+  <!-- Stacked punchy tagline (Post 3: Value Proposition) — white body with teal accent -->
+  <g font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="-0.5">
+    <text x="80" y="240" fill="#FFFFFF">Decides fast.</text>
+    <text x="280" y="240" fill="#FFFFFF">Aligns clear.</text>
+    <text x="480" y="240" fill="#00D9A6">Learns faster.</text>
+  </g>
+
+  <!-- Subline -->
+  <text x="80" y="282" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#FFFFFF" fill-opacity="0.78" letter-spacing="0.1">
+    Turning messy ambition into shippable product.
+  </text>
+
+  <!-- Philosophy chips — widths sized to text + 24px horizontal padding, 16px gap between chips -->
+  <g font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" letter-spacing="1">
+    <!-- CUSTOMER FIRST: text ≈100px + 24px padding = 124px -->
+    <g transform="translate(80, 310)">
+      <rect width="124" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text x="62" y="18" text-anchor="middle">CUSTOMER FIRST</text>
+    </g>
+    <!-- RUTHLESS PRIORITY: text ≈136px + 24px = 160px -->
+    <g transform="translate(220, 310)">
+      <rect width="160" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text x="80" y="18" text-anchor="middle">RUTHLESS PRIORITY</text>
+    </g>
+    <!-- ONE SPEC · ONE OWNER: text ≈148px + 24px = 172px -->
+    <g transform="translate(396, 310)">
+      <rect width="172" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text x="86" y="18" text-anchor="middle">ONE SPEC · ONE OWNER</text>
+    </g>
+    <!-- SHIP · LEARN · ITERATE: text ≈160px + 24px = 184px -->
+    <g transform="translate(584, 310)">
+      <rect width="184" height="28" rx="14" fill="#00D9A6" fill-opacity="0.12" stroke="#00D9A6" stroke-opacity="0.45"/>
+      <text x="92" y="18" text-anchor="middle" fill="#00D9A6">SHIP · LEARN · ITERATE</text>
+    </g>
+  </g>
+
+  <!-- ============== RIGHT SIDE: GLASS CARD (Post 5) ============== -->
+  <g transform="translate(820, 80)">
+    <g clip-path="url(#glassClip)">
+      <!-- Glass base -->
+      <rect x="0" y="0" width="360" height="220" fill="#FFFFFF" fill-opacity="0.06"/>
+      <!-- Inner glow layer -->
+      <circle cx="290" cy="40" r="90" fill="#00D9A6" fill-opacity="0.18"/>
+      <circle cx="50" cy="190" r="80" fill="#1802D9" fill-opacity="0.30"/>
+    </g>
+    <rect x="0" y="0" width="360" height="220" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.14"/>
+
+    <!-- Eyebrow -->
+    <text x="24" y="34" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#00D9A6" letter-spacing="2.2">HOW I THINK</text>
+
+    <!-- Title -->
+    <text x="24" y="64" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="-0.3">Attractiveness Playbook</text>
+    <text x="24" y="86" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#FFFFFF" fill-opacity="0.55" letter-spacing="0.8">VERSION 2.1</text>
+
+    <!-- Divider -->
+    <line x1="24" y1="104" x2="336" y2="104" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+
+    <!-- 4-quadrant mini map (Post 6 inspiration, abstract / no product names) -->
+    <g transform="translate(24, 120)">
+      <!-- Quadrant outer frame -->
+      <rect x="0" y="0" width="140" height="76" rx="8" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.15"/>
+      <!-- Cross hairs -->
+      <line x1="70" y1="6" x2="70" y2="70" stroke="#FFFFFF" stroke-opacity="0.18" stroke-dasharray="2 3"/>
+      <line x1="6" y1="38" x2="134" y2="38" stroke="#FFFFFF" stroke-opacity="0.18" stroke-dasharray="2 3"/>
+      <!-- Quadrant labels -->
+      <text x="10" y="16" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" fill-opacity="0.85" letter-spacing="0.8">BIG BET</text>
+      <text x="130" y="16" text-anchor="end" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#00D9A6" letter-spacing="0.8">QUICK WIN</text>
+      <text x="10" y="66" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="0.8">TRAP</text>
+      <text x="130" y="66" text-anchor="end" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" fill-opacity="0.85" letter-spacing="0.8">GOLD MINE</text>
+      <!-- Abstract dots (no labels — just pattern) -->
+      <circle cx="34" cy="26" r="3" fill="#FFFFFF"/>
+      <circle cx="102" cy="22" r="3.5" fill="#00D9A6"/>
+      <circle cx="96" cy="32" r="2.5" fill="#00D9A6"/>
+      <circle cx="110" cy="54" r="3" fill="#FFFFFF"/>
+      <circle cx="48" cy="52" r="2.5" fill="#FFFFFF" fill-opacity="0.55"/>
+    </g>
+
+    <!-- Right-side micro list -->
+    <g transform="translate(184, 124)">
+      <text font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#FFFFFF" fill-opacity="0.8">
+        <tspan x="0" y="0">Attractiveness</tspan>
+        <tspan x="0" y="16" fill="#FFFFFF" fill-opacity="0.55" font-weight="400" font-size="9">Vision × Signals × $</tspan>
+        <tspan x="0" y="38">Feasibility</tspan>
+        <tspan x="0" y="54" fill="#FFFFFF" fill-opacity="0.55" font-weight="400" font-size="9">Sprints to ship</tspan>
+      </text>
+    </g>
+
+    <!-- Footer line -->
+    <text x="24" y="204" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#00D9A6" letter-spacing="1">SHIP THE FIRST THREE · KILL THE TRAP EARLY</text>
+  </g>
+
+  <!-- ============== FOOTER LINE ============== -->
+  <line x1="80" y1="374" x2="1200" y2="374" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="80" y="366" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#FFFFFF" fill-opacity="0.55" letter-spacing="2.5">WWW.RESAL.ME</text>
+  <text x="1200" y="366" text-anchor="end" font-family="'IBM Plex Sans','IBM Plex Sans Arabic',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#FFFFFF" fill-opacity="0.55" letter-spacing="2.5">JEDDAH · KSA</text>
+</svg>
